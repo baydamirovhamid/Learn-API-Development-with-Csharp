@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\data\\datacontextef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:data\\datacontextef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\controllers\\userefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:controllers\\userefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\data\\datacontextef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:data\\datacontextef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\models\\userjobinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DataContextEF.cs",
               "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Data\\DataContextEF.cs",
               "RelativeDocumentMoniker": "Data\\DataContextEF.cs",
               "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Data\\DataContextEF.cs",
               "RelativeToolTip": "Data\\DataContextEF.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABgAAAANAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAiwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T20:46:06.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserSalary.cs",
               "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\UserSalary.cs",
               "RelativeDocumentMoniker": "Models\\UserSalary.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserJobInfo.cs",
               "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\UserJobInfo.cs",
               "RelativeDocumentMoniker": "Models\\UserJobInfo.cs",
@@ -79,32 +79,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserEFController.cs",
               "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserEFController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserEFController.cs",
               "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserEFController.cs",
               "RelativeToolTip": "Controllers\\UserEFController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAqwEsAAAABAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T20:09:44.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAANEAAAAAAAAAAAAAAOAAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T15:36:24.421Z"
+              "WhenOpened": "2024-03-25T15:36:24.421Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Models\\Users.cs",

@@ -42,10 +42,5 @@ namespace DotnetAPI.Data
             modelBuilder.Entity<UserJobInfo>()
                .HasKey(u => u.UserId);
         }
-
-        public static implicit operator DataContextEF(Mapper v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
