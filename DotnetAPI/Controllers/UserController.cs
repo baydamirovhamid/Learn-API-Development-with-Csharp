@@ -1,4 +1,5 @@
 ﻿using DotnetAPI.Data;
+using DotnetAPI.Dtos;
 using DotnetAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -26,7 +27,7 @@ public class UserController : ControllerBase
 
     [HttpGet("GetUsers/")]
     //public IActionResult Test()
-    public IEnumerable<User> GetUsers()
+    public IEnumerable<UserDto> GetUsers()
     {
         string sql = @"
             SELECT [UserId],
@@ -37,12 +38,12 @@ public class UserController : ControllerBase
             [Active] 
             FROM TutorialAppSchema.Users
         ";
-        IEnumerable<User> users =_dapper.LoadData<User>(sql);
+        IEnumerable<UserDto> users =_dapper.LoadData<UserDto>(sql);
         return users;
     }
 
     [HttpGet("GetSingleUsers/{userId}")]
-    public User GetSingleUser(int userId)
+    public UserDto GetSingleUser(int userId)
     {
         string sql = @"
             SELECT [UserId],
@@ -53,7 +54,7 @@ public class UserController : ControllerBase
             [Active] 
             FROM TutorialAppSchema.Users
             WHERE UserId = " + userId.ToString();
-          User user = _dapper.LoadDataSingle<User>(sql);
+          UserDto user = _dapper.LoadDataSingle<UserDto>(sql);
           return user;
 
     }
@@ -81,7 +82,7 @@ public class UserController : ControllerBase
 
 
     [HttpPost("AddUser")]
-    public IActionResult AddUser(User user)
+    public IActionResult AddUser(UserDto user)
     {
         string sql = @"
     INSERT INTO TutorialAppSchema.Users(
