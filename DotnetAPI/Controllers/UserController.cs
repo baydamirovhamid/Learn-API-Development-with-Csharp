@@ -38,7 +38,7 @@ public class UserController : ControllerBase
             [Active] 
             FROM TutorialAppSchema.Users
         ";
-        IEnumerable<UserDto> users =_dapper.LoadData<UserDto>(sql);
+        IEnumerable<UserDto> users = _dapper.LoadData<UserDto>(sql);
         return users;
     }
 
@@ -54,8 +54,8 @@ public class UserController : ControllerBase
             [Active] 
             FROM TutorialAppSchema.Users
             WHERE UserId = " + userId.ToString();
-          UserDto user = _dapper.LoadDataSingle<UserDto>(sql);
-          return user;
+        UserDto user = _dapper.LoadDataSingle<UserDto>(sql);
+        return user;
 
     }
 
@@ -106,5 +106,20 @@ public class UserController : ControllerBase
         }
         throw new Exception("Failed to Add User");
     }
+
+    [HttpDelete("DeleteUser/{userId}")]
+    public IActionResult DeleteUser(int userId)
+    {
+        string sql = @"
+            DELETE FROM TutorialAppSchema.Users WHERE UserId = " + userId.ToString();
+        Console.WriteLine(sql);
+
+        if (_dapper.ExecuteSql(sql))
+        {
+            return Ok();
+        }
+        throw new Exception("Failed to Delete User");
+    }
+    
 }
 

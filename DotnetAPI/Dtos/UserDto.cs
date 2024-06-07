@@ -13,22 +13,22 @@
         {
             if (FirstName == null)
             {
-                FirstName = "";
+                FirstName = " ";
             }
 
             if (LastName == null)
             {
-                FirstName = "";
+                FirstName = " ";
             }
 
             if (Email == null)
             {
-                FirstName = "";
+                FirstName = " ";
             }
 
             if (Gender == null)
             {
-                FirstName = "";
+                FirstName = " ";
             }
         }
     }
