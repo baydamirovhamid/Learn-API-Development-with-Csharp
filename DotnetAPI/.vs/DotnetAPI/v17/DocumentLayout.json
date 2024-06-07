@@ -1,38 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\udemy c#-course-code\\dotnetapi\\data\\datacontextdapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:data\\datacontextdapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\udemy c#-course-code\\dotnetapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\udemy c#-course-code\\dotnetapi\\models\\usersalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:models\\usersalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\udemy c#-course-code\\dotnetapi\\models\\userjobinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:models\\userjobinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\udemy c#-course-code\\dotnetapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\udemy c#-course-code\\dotnetapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\udemy c#-course-code\\dotnetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\udemy c#-course-code\\dotnetapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\data\\datacontextdapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:data\\datacontextdapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,99 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-25T16:23:10.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAqwC8AAAAXAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T15:36:24.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataContextDapper.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Data\\DataContextDapper.cs",
-              "RelativeDocumentMoniker": "Data\\DataContextDapper.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Data\\DataContextDapper.cs",
-              "RelativeToolTip": "Data\\DataContextDapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T16:35:57.073Z",
+              "WhenOpened": "2024-06-07T15:36:34.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T22:44:04.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-25T16:01:47.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T22:50:06.253Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserSalary.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Models\\UserSalary.cs",
-              "RelativeDocumentMoniker": "Models\\UserSalary.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Models\\UserSalary.cs",
-              "RelativeToolTip": "Models\\UserSalary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "DataContextDapper.cs",
+              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Data\\DataContextDapper.cs",
+              "RelativeDocumentMoniker": "Data\\DataContextDapper.cs",
+              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Data\\DataContextDapper.cs",
+              "RelativeToolTip": "Data\\DataContextDapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T22:58:17.329Z"
+              "WhenOpened": "2024-06-07T15:36:31.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserJobInfo.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Models\\UserJobInfo.cs",
-              "RelativeDocumentMoniker": "Models\\UserJobInfo.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\UDEMY c#-course-code\\DotnetAPI\\Models\\UserJobInfo.cs",
-              "RelativeToolTip": "Models\\UserJobInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAjwF8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:01:54.05Z"
+              "WhenOpened": "2024-03-25T15:36:24.421Z",
+              "EditorCaption": ""
             }
           ]
         }
