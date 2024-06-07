@@ -1,4 +1,5 @@
-﻿using DotnetAPI.Models;
+﻿using AutoMapper;
+using DotnetAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DotnetAPI.Data
@@ -42,5 +43,9 @@ namespace DotnetAPI.Data
                .HasKey(u => u.UserId);
         }
 
+        public static implicit operator DataContextEF(Mapper v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

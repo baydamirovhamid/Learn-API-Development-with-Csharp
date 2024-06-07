@@ -1,4 +1,5 @@
-﻿using DotnetAPI.Data;
+﻿using AutoMapper;
+using DotnetAPI.Data;
 using DotnetAPI.Dtos;
 using DotnetAPI.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -11,9 +12,15 @@ namespace DotnetAPI.Controllers;
 public class UserEFController : ControllerBase
 {
     DataContextEF _entityFramework;
+    IMapper _mapper;
+
     public UserEFController(IConfiguration config)
     {
         _entityFramework = new DataContextEF(config);
+        _entityFramework = new Mapper(new MapperConfiguration(cfg =>
+        {
+            cfg.CreateMap<UserDto, User>();
+        }));
     }
 
     [HttpGet("GetUsers")]
@@ -65,14 +72,8 @@ public class UserEFController : ControllerBase
     [HttpPost("AddUser")]
     public IActionResult AddUser(UserDto user)
     {
-        User userDb = new User();
-           
-        userDb.Active = user.Active;
-        userDb.FirstName = user.FirstName;
-        userDb.LastName = user.LastName;
-        userDb.Email = user.Email;
-        userDb.Gender = user.Gender;
-
+        User userDb = _mapper.Map<User>(user);
+          
         _entityFramework.Add(userDb);
        
         if (_entityFramework.SaveChanges() > 0)

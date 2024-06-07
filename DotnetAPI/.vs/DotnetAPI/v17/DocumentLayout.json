@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Data\\DataContextEF.cs",
               "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Data\\DataContextEF.cs",
               "RelativeToolTip": "Data\\DataContextEF.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBgAAABcAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T20:46:06.985Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Models\\UserSalary.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T20:41:27.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T20:41:27.617Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Models\\UserJobInfo.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAgwBAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T20:29:49.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T20:29:49.073Z"
             },
             {
               "$type": "Document",
@@ -87,7 +85,7 @@
               "RelativeDocumentMoniker": "Controllers\\UserEFController.cs",
               "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserEFController.cs",
               "RelativeToolTip": "Controllers\\UserEFController.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAQwGsAAAAAAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwEsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T20:09:44.077Z",
               "EditorCaption": ""
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T15:36:24.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T15:36:24.421Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Models\\Users.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T19:10:29.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T19:10:29.136Z"
             }
           ]
         }
