@@ -1,6 +1,6 @@
 ﻿namespace DotnetAPI.Models
 {
-    public partial class UserJobInfo
+    public class UserJobInfo
     {
         public int UserId { get; set; }
         public string JobTitle { get; set; }
