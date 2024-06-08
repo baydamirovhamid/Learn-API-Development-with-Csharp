@@ -1,4 +1,6 @@
 using DotnetAPI.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +33,7 @@ builder.Services.AddCors((options) =>
 });
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme);
 
 var app = builder.Build();
 
@@ -48,8 +51,8 @@ else
      app.UseHttpsRedirection(); 
 }
 
-
- app.UseAuthentication();
+app.UseAuthentication();
+app.UseAuthorization();
 
  app.MapControllers();
 

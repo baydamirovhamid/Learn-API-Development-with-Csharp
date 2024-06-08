@@ -7,24 +7,8 @@
       "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\dtos\\userforregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:dtos\\userforregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\controllers\\userefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:controllers\\userefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\helpers\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:helpers\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +26,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserForRegistrationDto.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Dtos\\UserForRegistrationDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\UserForRegistrationDto.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Dtos\\UserForRegistrationDto.cs",
-              "RelativeToolTip": "Dtos\\UserForRegistrationDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T21:05:58.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "Models\\Users.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\Users.cs",
-              "RelativeToolTip": "Models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T21:05:50.242Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFoAAAAeAAAA",
+              "Title": "AuthHelper.cs",
+              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Helpers\\AuthHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\AuthHelper.cs",
+              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Helpers\\AuthHelper.cs",
+              "RelativeToolTip": "Helpers\\AuthHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T21:00:59.231Z"
+              "WhenOpened": "2024-06-08T22:42:14.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,33 +45,10 @@
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowI4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:55:47.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserEFController.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserEFController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserEFController.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserEFController.cs",
-              "RelativeToolTip": "Controllers\\UserEFController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T21:37:38.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACAAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T21:31:20.554Z"
+              "WhenOpened": "2024-06-08T16:55:47.978Z",
+              "EditorCaption": ""
             }
           ]
         }
