@@ -3,6 +3,7 @@ using System.Security.Cryptography;
 using System.Text;
 using DotnetAPI.Data;
 using DotnetAPI.Dtos;
+using DotnetAPI.Models;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -57,9 +58,28 @@ namespace DotnetAPI.Controllers
                     sqlParameters.Add(passwordHashParameter);
 
                     if (_dapper.ExecuteSqlWithParameters(sqlAddAuth, sqlParameters))
-                    {                                          
-                          return Ok();
-                
+                    {
+                        string sqlAddUser = @"
+                         INSERT INTO TutorialAppSchema.Users(
+                         [FirstName],
+                         [LastName],
+                         [Email],
+                         [Gender],
+                         [Active]
+                         ) VALUES ("
+                        +
+                         "'" + userForRegistration.FirstName +
+                         "', '" + userForRegistration.LastName +
+                         "', '" + userForRegistration.Email +
+                         "', '" + userForRegistration.Gender +
+                         "', 1)";
+
+                        if (_dapper.ExecuteSql(sqlAddUser))
+                        {
+                            return Ok();
+
+                        }
+                        
                     }
                     throw new Exception("Failed to register user.");
                 }
@@ -107,6 +127,5 @@ namespace DotnetAPI.Controllers
                 numBytesRequested: 256 / 8
             );
         }
-
     }
 }
