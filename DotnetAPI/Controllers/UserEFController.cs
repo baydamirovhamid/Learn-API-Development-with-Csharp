@@ -31,7 +31,7 @@ public class UserEFController : ControllerBase
     // public IEnumerable<User> GetUsers()
     public IEnumerable<User> GetUsers()
     {
-        IEnumerable<User> users = _entityFramework.Users.ToList<User>();
+        IEnumerable<User> users = _userRepository.GetUsers();
         return users;
     }
 
@@ -39,24 +39,23 @@ public class UserEFController : ControllerBase
     // public IEnumerable<User> GetUsers()
     public User GetSingleUser(int userId)
     {
-        User? user = _entityFramework.Users
-            .Where(u => u.UserId == userId)
-            .FirstOrDefault<User>();
+        //User? user = _entityFramework.Users
+        //    .Where(u => u.UserId == userId)
+        //    .FirstOrDefault<User>();
 
-        if (user != null)
-        {
-            return user;
-        }
+        //if (user != null)
+        //{
+        //    return user;
+        //}
 
-        throw new Exception("Failed to Get User");
+        //throw new Exception("Failed to Get User");
+        return _userRepository.GetSingleUser(userId);
     }
 
     [HttpPut("EditUser")]
     public IActionResult EditUser(User user)
     {
-        User? userDb = _entityFramework.Users
-            .Where(u => u.UserId == user.UserId)
-            .FirstOrDefault<User>();
+        User? userDb = _userRepository.GetSingleUser(user.UserId);
 
         if (userDb != null)
         {
@@ -94,13 +93,13 @@ public class UserEFController : ControllerBase
     [HttpDelete("DeleteUser/{userId}")]
     public IActionResult DeleteUser(int userId)
     {
-        User? userDb = _entityFramework.Users
-            .Where(u => u.UserId == userId)
-            .FirstOrDefault<User>();
+        User? userDb = _userRepository.GetSingleUser(userId);
 
         if (userDb != null)
         {
-_us            if (_userRepository.SaveChanges())
+            _userRepository.RemoveEntity<User>(userDb);
+
+          if (_userRepository.SaveChanges())
             {
                 return Ok();
             }
@@ -112,11 +111,9 @@ _us            if (_userRepository.SaveChanges())
     }
 
     [HttpGet("UserSalary/{userId}")]
-    public IEnumerable<UserSalary> GetUserSalaryEF(int userId)
+    public UserSalary GetUserSalaryEF(int userId)
     {
-        return _entityFramework.UserSalary
-            .Where(u => u.UserId == userId)
-            .ToList();
+        return _userRepository.GetSingleUserSalary(userId);
     }
 
     [HttpPost("UserSalary")]
@@ -135,9 +132,7 @@ _us            if (_userRepository.SaveChanges())
     [HttpPut("UserSalary")]
     public IActionResult PutUserSalaryEf(UserSalary userForUpdate)
     {
-        UserSalary? userToUpdate = _entityFramework.UserSalary
-            .Where(u => u.UserId == userForUpdate.UserId)
-            .FirstOrDefault();
+        UserSalary? userToUpdate = _userRepository.GetSingleUserSalary(userForUpdate.UserId);
 
         if (userToUpdate != null)
         {
@@ -155,9 +150,7 @@ _us            if (_userRepository.SaveChanges())
     [HttpDelete("UserSalary/{userId}")]
     public IActionResult DeleteUserSalaryEf(int userId)
     {
-        UserSalary? userToDelete = _entityFramework.UserSalary
-            .Where(u => u.UserId == userId)
-            .FirstOrDefault();
+        UserSalary? userToDelete = _userRepository.GetSingleUserSalary(userId);
 
         if (userToDelete != null)
         {
@@ -173,11 +166,9 @@ _us            if (_userRepository.SaveChanges())
 
 
     [HttpGet("UserJobInfo/{userId}")]
-    public IEnumerable<UserJobInfo> GetUserJobInfoEF(int userId)
+    public UserJobInfo GetUserJobInfoEF(int userId)
     {
-        return _entityFramework.UserJobInfo
-            .Where(u => u.UserId == userId)
-            .ToList();
+        return _userRepository.GetSingleUserJobInfo(userId);
     }
 
     [HttpPost("UserJobInfo")]
@@ -195,9 +186,7 @@ _us            if (_userRepository.SaveChanges())
     [HttpPut("UserJobInfo")]
     public IActionResult PutUserJobInfoEf(UserJobInfo userForUpdate)
     {
-        UserJobInfo? userToUpdate = _entityFramework.UserJobInfo
-            .Where(u => u.UserId == userForUpdate.UserId)
-            .FirstOrDefault();
+        UserJobInfo? userToUpdate = _userRepository.GetSingleUserJobInfo(userForUpdate.UserId);
 
         if (userToUpdate != null)
         {
@@ -215,9 +204,7 @@ _us            if (_userRepository.SaveChanges())
     [HttpDelete("UserJobInfo/{userId}")]
     public IActionResult DeleteUserJobInfoEf(int userId)
     {
-        UserJobInfo? userToDelete = _entityFramework.UserJobInfo
-            .Where(u => u.UserId == userId)
-            .FirstOrDefault();
+        UserJobInfo? userToDelete = _userRepository.GetSingleUserJobInfo(userId);
 
         if (userToDelete != null)
         {
