@@ -11,9 +11,11 @@ namespace DotnetAPI.Controllers;
 public class UserController : ControllerBase
 {
     DataContextDapper _dapper;
+    IConfiguration _config;
     public UserController(IConfiguration config)
     {
         _dapper = new DataContextDapper(config);
+        _config = config;
     }
 
     [HttpGet("GetUsers/")]

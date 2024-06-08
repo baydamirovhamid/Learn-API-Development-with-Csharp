@@ -1,10 +1,10 @@
-﻿using Dapper;
+﻿using System.Data;
+using Dapper;
 using Microsoft.Data.SqlClient;
-using System.Data;
 
 namespace DotnetAPI.Data
 {
-    public class DataContextDapper
+    class DataContextDapper
     {
         private readonly IConfiguration _config;
         public DataContextDapper(IConfiguration config)
@@ -36,6 +36,25 @@ namespace DotnetAPI.Data
             return dbConnection.Execute(sql);
         }
 
+        public bool ExecuteSqlWithParameters(string sql, List<SqlParameter> parameters)
+        {
+            SqlCommand commandWithParams = new SqlCommand(sql);
+
+            foreach (SqlParameter parameter in parameters)
+            {
+                commandWithParams.Parameters.Add(parameter);
+            }
+
+            SqlConnection dbConnection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+            dbConnection.Open();
+
+            commandWithParams.Connection = dbConnection;
+
+            int rowsAffected = commandWithParams.ExecuteNonQuery();
+
+            dbConnection.Close();
+
+            return rowsAffected > 0;
+        }
     }
 }
-
