@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\dtos\\posttoeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:dtos\\posttoeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\dtos\\posttoadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:dtos\\posttoadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\models\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:models\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|c:\\users\\99470\\desktop\\backend\\learn api development with c#\\dotnetapi\\helpers\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E94D07-4F70-423C-B574-411B890817A8}|DotnetAPI.csproj|solutionrelative:helpers\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,40 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Posts.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\Posts.cs",
-              "RelativeDocumentMoniker": "Models\\Posts.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\Posts.cs",
-              "RelativeToolTip": "Models\\Posts.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAwwBcAAAABAAAA",
+              "DocumentIndex": 1,
+              "Title": "PostToEditDto.cs",
+              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Dtos\\PostToEditDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PostToEditDto.cs",
+              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Dtos\\PostToEditDto.cs",
+              "RelativeToolTip": "Dtos\\PostToEditDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T23:00:22.404Z",
+              "WhenOpened": "2024-06-09T20:48:12.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthHelper.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Helpers\\AuthHelper.cs",
-              "RelativeDocumentMoniker": "Helpers\\AuthHelper.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Helpers\\AuthHelper.cs",
-              "RelativeToolTip": "Helpers\\AuthHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAABAAAA",
+              "Title": "PostToAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Dtos\\PostToAddDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PostToAddDto.cs",
+              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Dtos\\PostToAddDto.cs",
+              "RelativeToolTip": "Dtos\\PostToAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T22:42:14.645Z"
+              "WhenOpened": "2024-06-09T20:48:03.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAowEkAAAAaAAAA",
+              "DocumentIndex": 0,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAqwJYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:55:47.978Z",
+              "WhenOpened": "2024-06-09T20:37:06.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Posts.cs",
+              "DocumentMoniker": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\Posts.cs",
+              "RelativeDocumentMoniker": "Models\\Posts.cs",
+              "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Models\\Posts.cs",
+              "RelativeToolTip": "Models\\Posts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T23:00:22.404Z",
               "EditorCaption": ""
             }
           ]
