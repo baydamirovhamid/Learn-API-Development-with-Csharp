@@ -45,4 +45,27 @@ public class UserCompleteController : ControllerBase
         IEnumerable<UserComplete> users = _dapper.LoadData<UserComplete>(sql);
         return users;
     }
+
+    [HttpPut("UpsertUser")]
+    public IActionResult UpsertUser(UserComplete user)
+    {
+        string sql = @"EXEC TutorialAppSchema.spUser_Upsert
+            @FirstName = '" + user.FirstName +
+            "', @LastName = '" + user.LastName +
+            "', @Email = '" + user.Email +
+            "', @Gender = '" + user.Gender +
+            "', @Active = '" + user.Active +
+            "', @JobTitle = '" + user.JobTitle +
+            "', @Department = '" + user.Department +
+            "', @Salary = '" + user.Salary +
+            "', @UserId = " + user.UserId;
+
+        if (_dapper.ExecuteSql(sql))
+        {
+            return Ok();
+        }
+
+        throw new Exception("Failed to Update User");
+    }
+
 }

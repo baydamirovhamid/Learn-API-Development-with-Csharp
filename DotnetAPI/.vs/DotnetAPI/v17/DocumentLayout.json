@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Controllers\\UserCompleteController.cs",
               "ToolTip": "C:\\Users\\99470\\Desktop\\BACKEND\\Learn API Development with C#\\DotnetAPI\\Controllers\\UserCompleteController.cs",
               "RelativeToolTip": "Controllers\\UserCompleteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAQwEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T20:30:26.552Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Models\\UserComplete.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T20:30:06.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T20:30:06.097Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T20:26:27.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T20:26:27.964Z"
             }
           ]
         }
