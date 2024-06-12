@@ -18,7 +18,7 @@ public class UserController : ControllerBase
         _config = config;
     }
 
-    [HttpGet("GetUsers/")]
+    [HttpGet("GetUsers")]
     //public IActionResult Test()
     public IEnumerable<UserDto> GetUsers()
     {
