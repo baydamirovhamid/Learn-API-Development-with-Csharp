@@ -8,46 +8,44 @@
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Gender { get; set; }
+        public string JobTitle { get; set; }
+        public string Department { get; set; }
+        public decimal Salary { get; set; }
 
         public UserForRegistrationDto()
         {
             if (Email == null)
             {
-                Email = " ";
-
+                Email = "";
+            }
+            if (Password == null)
+            {
+                Password = "";
+            }
+            if (PasswordConfirm == null)
+            {
+                PasswordConfirm = "";
             }
             if (FirstName == null)
             {
                 FirstName = "";
             }
-
             if (LastName == null)
             {
-                FirstName = "";
+                LastName = "";
             }
-
-            if (Email == null)
-            {
-                FirstName = "";
-            }
-
             if (Gender == null)
             {
-                FirstName = "";
+                Gender = "";
             }
-
-            if (Password == null)
+            if (JobTitle == null)
             {
-                Password = " ";
-
+                JobTitle = "";
             }
-
-            if (PasswordConfirm == null)
+            if (Department == null)
             {
-                PasswordConfirm = " ";
-
+                Department = "";
             }
         }
     }
 }
-
