@@ -4,12 +4,11 @@
     {
         public byte[] PasswordHash { get; set; }
         public byte[] PasswordSalt { get; set; }
-
-        public UserForLoginConfirmationDto() 
+        UserForLoginConfirmationDto()
         {
             if (PasswordHash == null)
             {
-                PasswordSalt = new byte[0];
+                PasswordHash = new byte[0];
             }
             if (PasswordSalt == null)
             {

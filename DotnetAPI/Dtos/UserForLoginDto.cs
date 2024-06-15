@@ -4,23 +4,16 @@
     {
         public string Email { get; set; }
         public string Password { get; set; }
-
         public UserForLoginDto()
         {
             if (Email == null)
             {
-                Email = " ";
-
+                Email = "";
             }
-
             if (Password == null)
             {
-                Password = " ";
-
+                Password = "";
             }
-
-            
         }
     }
 }
-
