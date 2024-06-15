@@ -1,8 +1,10 @@
-﻿using DotnetAPI.Data;
+﻿using Dapper;
+using DotnetAPI.Data;
 using DotnetAPI.Dtos;
 using DotnetAPI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace DotnetAPI.Controllers
 {
@@ -47,14 +49,8 @@ namespace DotnetAPI.Controllers
         [HttpGet("MyPosts")]
         public IEnumerable<Post> GetMyPosts()
         {
-            string sql = @"SELECT [PostId],
-                    [UserId],
-                    [PostTitle],
-                    [PostContent],
-                    [PostCreated],
-                    [PostUpdated] 
-                FROM TutorialAppSchema.Posts
-                    WHERE UserId = " + this.User.FindFirst("userId")?.Value;
+            string sql = @"EXEC TutorialAppSchema.spPosts_Get @UserId = " +
+                this.User.FindFirst("userId")?.Value;
 
             return _dapper.LoadData<Post>(sql);
         }
