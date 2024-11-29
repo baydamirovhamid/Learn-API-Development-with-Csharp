@@ -8,5 +8,4 @@ This project is a demonstration of API development using C#. The goal is to crea
 - Error Handling
 - Logging
 - Authentication and Authorization
-- Unit and Integration Testing
 - Data Persistence with Entity Framework Core
